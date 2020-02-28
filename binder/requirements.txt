@@ -5,3 +5,4 @@ jupyter-contrib-nbextensions==0.5.1
 jupyter-nbextensions-configurator==0.4.1
 beautifulsoup4==4.8.2
 google==2.0.3
+youtube_dl==2020.2.16
