@@ -7,3 +7,68 @@
 .ipynb_checkpoints/
 .gitignore.swp
 .bash_history
+
+# OSX | MAC
+.DS_Store
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+
+# NODE | NPM Modules
+app/node_modules
+/node_modules
+
+### django
+*/**/__pycache__/
+*/db.sqlite3
+*/db.sqlite3-journal
+
+
+### django | suggested from gitlab search:
+*/**/*.pc
+*/**/*.pyc
+*/**/*.pyo
+*/**/__pycache__
+*/**/.deps
+*/**/.libs
+*/**/_build/
+
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# IDE - VSCode
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
+# -- macOS -- #
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
